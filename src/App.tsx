@@ -3,6 +3,7 @@ import { motion } from 'framer-motion';
 import { Menu, X, ChevronUp, Github, Linkedin, Mail, Award, GraduationCap, Briefcase, Sun, Moon, Download } from 'lucide-react';
 import { Code, Server, Database } from 'lucide-react';
 import { Button, Grid, Typography, Card, CardContent, CardHeader } from '@mui/material';
+import im3 from '../public/im3.png';  // Import the image file
 
 function App() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -145,7 +146,7 @@ function App() {
               {/* Left Side (Image - 40%) */}
               <div className="relative z-0 flex justify-center md:col-span-2">
                 <img
-                    src="/public/im3.png"
+                    src={im3}
                     alt="Cute geeky girl coding"
                     className="w-[90%] md:w-[100%] max-w-[500px] h-auto object-contain"
                 />
