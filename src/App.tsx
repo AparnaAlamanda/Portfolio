@@ -145,7 +145,7 @@ function App() {
               {/* Left Side (Image - 40%) */}
               <div className="relative z-0 flex justify-center md:col-span-2">
                 <img
-                    src="/im3.png"
+                    src="/public/im3.png"
                     alt="Cute geeky girl coding"
                     className="w-[90%] md:w-[100%] max-w-[500px] h-auto object-contain"
                 />
